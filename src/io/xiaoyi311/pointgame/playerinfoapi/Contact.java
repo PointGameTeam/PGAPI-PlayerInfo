@@ -9,7 +9,9 @@ import java.util.List;
  */
 public class Contact {
     /**
-     * B站
+     * B站<br><br>
+     * 需注意屏蔽特殊字符："," ";"<br>
+     * 出现会导致缓存系统错误
      */
     public String bilibili = "none";
     /**
@@ -17,7 +19,9 @@ public class Contact {
      */
     public Long qq = 0L;
     /**
-     * 微信
+     * 微信<br><br>
+     * 需注意屏蔽特殊字符："," ";"<br>
+     * 出现会导致缓存系统错误
      */
     public String wechat = "none";
 
